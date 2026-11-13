@@ -17,12 +17,11 @@ dotnet restore
 dotnet build
 dotnet run
 ```
-Ajouter une source
-RTSP : saisir l'URL complète, par exemple `rtsp://192.168.1.100:554/stream1`
-USB : sélectionner « Caméra USB » et saisir `0` (première caméra), `1` (deuxième), etc.
-Limites connues de cette première base
-Cette V0.1 est un prototype d'acquisition/affichage, pas encore un détecteur.
-La disponibilité RTSP/H.264/H.265 dépend du backend FFmpeg embarqué et du flux de la caméra.
-La gestion des identifiants RTSP est laissée à l'URL pour ce prototype ; ne partage pas une URL contenant un mot de passe.
-Le bouton d'ajout ajoute une tuile ; la suppression individuelle et la reconnexion automatique seront ajoutées ensuite.
-L'interface multi-caméras est volontairement simple à ce stade.
+<p>Ajouter une source RTSP : saisir l'URL complète, par exemple `rtsp://192.168.1.100:554/stream1`</p>
+<p>USB : sélectionner « Caméra USB » et saisir `0` (première caméra), `1` (deuxième), etc.</p>
+
+<p>A l'instant, ce logiciel est un prototype d'acquisition/affichage, pas encore un détecteur.</p>
+<p>La disponibilité RTSP/H.264/H.265 dépend du backend FFmpeg embarqué et du flux de la caméra.</p>
+<p>La gestion des identifiants RTSP est laissée à l'URL pour ce prototype ; ne partage pas une URL contenant un mot de passe.</p>
+<p>Le bouton d'ajout ajoute une tuile ; la suppression individuelle et la reconnexion automatique seront ajoutées ensuite.</p>
+<p>L'interface multi-caméras est volontairement simple à ce stade.</p>

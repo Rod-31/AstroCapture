@@ -1,4 +1,4 @@
-# AstroCapture
+# AstroCapture - The Astronomical Motion Detection System
 <p>AstroCapture est un logiciel d'observation automatique du ciel.</p> 
 <p>Il propose la surveillance et la capture automatique d'évènements du ciel, au travers de caméras PoE.</p> 
 <p>Le logiciel est développé pour fonctionner sur Windows uniquement (pour le moment).</p> 
